@@ -1,3 +1,19 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.darkchocobear.dev/'
+theme = 'hugo-bearblog'
+
+title = 'Choco Bear'
+
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+copyright = "Copyright © 2026, Choco Bear"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
